@@ -1,39 +1,36 @@
-# IoT & Embedded Systems Projects 🚀
+# 🚀 IoT & Embedded Systems Projects Portfolio
 
-This repository showcases a series of IoT and Embedded Systems projects developed for academic, personal, and freelance use. These projects combine real-time monitoring, automation, cloud integration, and sensor-based control using platforms like ESP8266, ESP32, Arduino, and TinyML.
+This repository showcases a collection of 10+ innovative IoT and Embedded Systems projects developed under the **Gtech IoT Initiative** for academic, personal, and freelance use. Each project aims to solve real-world problems through automation, smart sensing, and remote monitoring using microcontrollers like ESP32, NodeMCU, Arduino and TinyML.
 
-## 🔧 Technologies Used
-- **Microcontrollers**: ESP8266, ESP32, Arduino Uno
-- **IoT Platforms**: Blynk, Firebase
-- **Languages**: C++, Python
-- **Sensors/Modules**: DHT11, MQ-2, LDR, Ultrasonic, Relay Modules, IR, Servo, SD Card Module
-- **Libraries**: Servo.h, BlynkSimpleEsp8266.h, TMRpcm, OpenCV (for biometrics)
+## 📂 Project List
 
-## 📂 Featured Projects
+| S.No | Project Title                                   | Description |
+|------|--------------------------------------------------|-------------|
+| 1.   | [IoT-Enabled Gas Detection System](./IoT-Gas-Detection) | Smart gas detection with buzzer, fan, and app alert |
+| 2.   | [Smart Lighting System](./Smart-Lighting)       | Motion/Light-based automated lighting system |
+| 3.   | [Intruder Alert System](./Intruder-Alert)       | Security system using PIR and IoT alerts |
+| 4.   | [Dynamic Health Surveillance](./Health-Surveillance) | Real-time vitals monitoring system |
+| 5.   | [Smart Pet Feeder](./Pet-Feeder)                | Timed pet feeding system using servo motors |
+| 6.   | [Fingerprint Voting System](./Fingerprint-Voting) | Secure voting using biometric fingerprint sensor |
+| 7.   | [Air Quality Monitoring System](./Air-Quality)  | AQI, humidity & temperature tracker with IoT |
+| 8.   | [Gas Leakage Detection](./Gas-Leakage)          | Early warning gas system with automatic shut-off |
+| 9.   | [Noise Pollution Detection](./Noise-Pollution)  | Tracks sound levels and logs to the cloud |
+| 10.  | [Blind Glass](./Blind-Glass)                    | Smart glasses for the visually impaired |
+| 11.  | [Blind Stick](./Blind-Stick)                    | Obstacle detection for visually impaired people |
+| 12.  | [Solar Panel Detection](./Solar-Panel)          | Monitors panel efficiency with IOT dashboard |
+| 13.  | [Smart Home Automation](./Smart-Home)           | Control appliances remotely via IoT app |
+| 14.  | [Smart Street Light](./Street-Light)            | Automatic street lighting using sensors |
+| 15.  | [Smart Irrigation System](./Irrigation-System)  | Soil moisture based water pump controller |
+| 16.  | [Smart Water Quality Monitoring System](./Water-Quality) | Detects pH, turbidity, and temperature of water |
 
-### 1. Smart Pet Feeder
-- ESP8266-based automated pet feeder with scheduled and manual feeding
-- Integrated with Blynk IoT and ultrasonic sensor for pet detection
-- Plays sound via Arduino Uno and SD module
 
-### 2. Fire & Gas Detection System using TinyML
-- Real-time smoke and gas monitoring
-- Deployed TinyML model on microcontroller for local inference
-- Sends alerts via Blynk and automates exhaust fan
+## 🛠️ Tech Stack
 
-### 3. Smart Solar Power Monitor
-- Monitors voltage, current, power, humidity, temperature, and light
-- Manual relay control through Blynk
-- Data visualized in real-time
-
-### 4. Biometric Voting System
-- Iris-based authentication using OpenCV and CNN
-- Trained on CASIA-IrisV1 dataset
-- Real-time recognition through camera and touchscreen interface
-
-### 5. Gtech_IoT Client Projects
-- Developed IoT systems for home automation, industrial monitoring, and pet care
-- Delivered complete working prototypes for real clients
+- ESP32 / NodeMCU / Arduino UNO
+- Sensors: MQ-series, DHT11, LDR, PIR, Soil Moisture, IR, Ultrasonic , SD Card Module, Servo ,etc...
+- Actuators: Servo Motor, Relay Modules, Buzzers
+- Platforms: Firebase, Blynk, ThingSpeak, Arduino IDE
+- Languages: C/C++, Embedded C
 
 ## 📌 About Me
 Freelancer & Engineering student passionate about IoT and Embedded AI. Currently building a strong portfolio through client projects and advanced automation systems.
