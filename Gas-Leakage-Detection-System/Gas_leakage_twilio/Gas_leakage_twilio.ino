@@ -17,15 +17,15 @@ LiquidCrystal_I2C lcd(0x27, 16, 2); // 16x2 LCD
 #define SERVO_PIN 15
 
 // WiFi Credentials
-const char* ssid = "Pavan";
-const char* password = "hihellohi";
+const char* ssid = "XxXxX";
+const char* password = "12345";
 
 // Twilio Credentials
-const char* twilio_account_sid = "ACcd5f31663e407a5f7d4335db3b5708cf";
-const char* twilio_auth_token = "54f5092ceed1e098c29c7530bf66eeb7";
+const char* twilio_account_sid = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const char* twilio_auth_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 const char* twilio_from_number = "+12316266336";
-const char* emergency_contact = "+919487860465";
-const char* emergency_sms_contact = "+919487860465";
+const char* emergency_contact = "+910000000000";
+const char* emergency_sms_contact = "+91000000000";
 
 // Global Variables
 bool alertTriggered = false;
